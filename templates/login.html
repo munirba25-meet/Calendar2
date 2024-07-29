@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <form method="POST" action="/login">
+              <h3>
+                Login into your account
+              </h3>
+              <p>
+                Please fill up your information below to sign in.
+              </p>
+              <div >
+              <div >
+                <label>Email address</label>
+                <div>
+                  <input type="email"  name="email" id="emailStr" required>
+
+                  <div >
+                  </div>
+                </div>
+              </div>
+              <div >
+                <label>Password</label>
+                <div class="input-group">
+                  <input type="password"  name="password" minlength="6">
+                  <div>
+                  </div>
+                </div>
+              </div>
+              <div >
+                <div >
+<!--                   <div >
+                    <input type="login"/>
+                  </div> -->
+
+                </div>
+              </div>
+              </div>
+    </form>
+        <br>
+                  <a href="/"><button>login</button></a>
+</body>
+</html>
